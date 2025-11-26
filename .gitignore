@@ -1,0 +1,38 @@
+# --- Python ---
+# Archivos compilados (Bytecode) que genera Python automáticamente
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Entornos Virtuales ---
+# Es CRÍTICO ignorar esto. Las dependencias se instalan con requirements.txt,
+# no se sube la carpeta con miles de archivos de librería.
+venv/
+env/
+.env/
+.venv/
+
+# --- Variables de Entorno y Secretos ---
+# Nunca subas claves privadas o configuraciones locales
+.env
+.env.local
+
+# --- IDEs y Editores de Texto ---
+# Configuraciones personales de tu editor que no le sirven a nadie más
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Sistema Operativo ---
+# Archivos basura de Mac y Windows
+.DS_Store
+Thumbs.db
+
+# --- Distribución y Empaquetado ---
+dist/
+build/
+*.egg-info/
+
+# --- Logs ---
+*.log
